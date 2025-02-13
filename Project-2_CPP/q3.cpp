@@ -11,7 +11,7 @@ int sumlf(int num){
         num /= 10;
     }
     firstDigit = num;
-    cout<<"Sum is: "<<firstDigit+lasDigit;
+    cout<<"Sum of first and last digit is: "<<firstDigit+lasDigit;
     return num;
 }
 int main(){
